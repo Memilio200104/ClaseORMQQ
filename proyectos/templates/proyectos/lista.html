@@ -26,11 +26,13 @@
             {% for proyecto in proyectos %}
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="card h-100 shadow-sm">
+                        {# TODO: Muestra aquí el título, la tecnología y las horas de desarrollo. #}
+                        {# Pista: fíjate cómo se muestra la fecha en el pie de la tarjeta. #}
                         <div class="card-body">
-                            <h2 class="card-title h5">{{ proyecto.titulo }}</h2>
-                            <span class="badge bg-secondary mb-3">{{ proyecto.tecnologia }}</span>
+                            <h2 class="card-title h5"></h2>
+                            <span class="badge bg-secondary mb-3"></span>
                             <p class="card-text mb-0">
-                                <strong>Horas de desarrollo:</strong> {{ proyecto.horas_desarrollo }}
+                                <strong>Horas de desarrollo:</strong>
                             </p>
                         </div>
                         <div class="card-footer text-muted small">

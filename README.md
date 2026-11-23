@@ -106,6 +106,7 @@ Abre <http://127.0.0.1:8000/> en el navegador.
    python manage.py createsuperuser
    ```
 4. **ORM:** reemplazar los valores de ejemplo en `proyectos/views.py` por consultas reales.
+5. **Template:** completar las tarjetas en `proyectos/templates/proyectos/lista.html` (busca el `TODO`).
 
 ## Estructura del proyecto
 
