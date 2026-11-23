@@ -14,8 +14,8 @@ La temática es un "Portafolio de Proyectos" sencillo construido con Django 5.1+
 ### 1. Clonar el repositorio
 
 ```bash
-git clone <URL-DEL-REPOSITORIO>
-cd clase_orm_alumnos
+git clone https://github.com/Memilio200104/ClaseORMQQ.git
+cd ClaseORMQQ
 ```
 
 ### 2. Crear y activar el entorno virtual
@@ -110,7 +110,7 @@ Abre <http://127.0.0.1:8000/> en el navegador.
 ## Estructura del proyecto
 
 ```
-clase_orm_alumnos/
+ClaseORMQQ/
 ├── config/                 # Configuración del proyecto (settings, urls)
 ├── proyectos/              # App principal
 │   ├── models.py           # Modelo Proyecto
