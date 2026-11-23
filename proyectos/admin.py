@@ -1,5 +1,5 @@
 from django.contrib import admin
 
-# TODO: Importa el modelo Proyecto y regístralo en el panel de administración:
-#   from .models import Proyecto
-#   admin.site.register(Proyecto)
+# TODO: Haz que el modelo Proyecto aparezca en el panel de administración
+#       (/admin/) para poder crear proyectos desde ahí.
+#       Necesitarás dos cosas: traer el modelo y "registrarlo" en el sitio del admin.
